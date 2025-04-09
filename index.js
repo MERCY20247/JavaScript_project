@@ -191,6 +191,6 @@ function searchBooks(input) {
 
   // If no books match, show a "No results found" message
   if (filteredBooks.length === 0) {
-    bookList.innerHTML = <p class="text-center text-muted">No books found</p>;
+    bookList.innerHTML = `<p class="text-center text-muted">No books found</p>`;
   }
 }
